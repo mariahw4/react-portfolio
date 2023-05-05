@@ -1,37 +1,46 @@
 import React from 'react';
 
 // In our return method, we use the map method to return a new array of `li` and `img` elements that are specific to each search result
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
     <>
-    <nav className="navbar sticky-top navbar-light navbar-expand-lg bg-light">
-      <div className="row">
-    <img src="/react-portfolio/images/self-portrait.png" className="d-inline-block align-top col-1" alt="self-portrait"/>
-    <h2 className="col-4">Mariah Wear</h2>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <div className="row px-3 sticky-top">
+      <nav className="navbar navbar-light navbar-expand-lg bg-light">
+        <img src="/react-portfolio/images/self-portrait.png" className="d-inline-block align-top navbar-img " alt="self-portrait"/>
+        <a className="navbar-brand" href="#About-Me">Mariah Wear</a>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
     
-    <div className="col-7 collapse navbar-collapse" id="navbarNav">
+  <div className=" col collapse navbar-collapse" id="navbarNavAltMarkup">
     <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className="nav-link" href="#About-Me">About Me <span className="sr-only"></span></a>
+      <li>
+        <a href="#About-Me" onClick={() => handlePageChange('About')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me <span className="sr-only"></span></a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#Portfolio">Portfolio</a>
+      <li>
+        <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `About`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#Contact-Me">Contact Me</a>
+      <li>
+        <a href="#Contact-Me" onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact Me</a>
       </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#Resume">Resume</a>
+      <li>
+        <a href="#Resume" onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Resume`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
       </li>
 
 
     </ul>
     </div>
-  </div>
 </nav>
+  </div>
    </>
   );
 }

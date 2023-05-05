@@ -3,7 +3,6 @@ import React from 'react';
 function Footer() {
     return (
     <footer className="container">
- <p>Here are some quick links to email or connect on Github or LinkedIn as well!! Thanks!</p>
         <div className="contact-btns">
                 <a target="_blank" rel="noopener noreferrer" href="mailto:wearmariahk@gmail.com" className="btn btn-primary col">Email Me</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/mariahw4" className="btn btn-primary col">GitHub</a>

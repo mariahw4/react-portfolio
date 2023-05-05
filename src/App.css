@@ -15,6 +15,9 @@ h5{
   background-color: navy;
   color: white;
 }
+.navbar-img{
+  max-height: 90px;
+}
 .headshot-img{
   max-width: 25%;
   height: auto;
