@@ -22,7 +22,11 @@ h5{
 }
 .container {
   border: 2px solid navy;
-  margin-top: 20rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.nav-link {
+  width: fit-content;
 }
 
 .card {
