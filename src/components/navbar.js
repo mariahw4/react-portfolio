@@ -4,15 +4,12 @@ import React from 'react';
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <>
-    <div className="row px-3 sticky-top">
+    <div className="px-3 sticky-top">
       <nav className="navbar navbar-light navbar-expand-lg bg-light">
         <img src="/react-portfolio/images/self-portrait.png" className="d-inline-block align-top navbar-img " alt="self-portrait"/>
         <a className="navbar-brand" href="#About-Me">Mariah Wear</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
     
-  <div className=" col collapse navbar-collapse" id="navbarNavAltMarkup">
+  <div className="navbar-justify">
     <ul className="navbar-nav">
       <li>
         <a href="#About-Me" onClick={() => handlePageChange('About')}

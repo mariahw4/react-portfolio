@@ -28,9 +28,9 @@ h5{
   margin-top: 10rem;
   margin-bottom: 5rem;
 }
-.nav-link {
+/* .nav-link {
   width: fit-content;
-}
+} */
 
 .card {
   padding: 1rem;
@@ -41,7 +41,7 @@ h5{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.navbar-collapse {
+.navbar-justify {
   justify-content: end;
 }
 
