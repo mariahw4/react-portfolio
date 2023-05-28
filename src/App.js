@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio'
 import Contact from './components/contact'
 import Resume from './components/resume'
 import './App.css'
+import ThankYou from './components/thankyou'
 
 const App = () => {
 
@@ -22,6 +23,9 @@ const App = () => {
       }
       if (currentPage === 'Contact') {
         return <Contact />;
+      }
+      if (currentPage === 'Thank-You'){
+        return <ThankYou />
       }
       return <Resume />;
     };

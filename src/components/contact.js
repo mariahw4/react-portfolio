@@ -67,7 +67,8 @@ function Contact() {
         <input type="text" name="_honey" style={{display: "none"}}/>
         <input type="hidden" name="_captcha" value="false"></input>
         <input type="hidden" name="_subject" value="New submission!"></input>
-        <input type="hidden" name="_url" value="https://mariahw4.github.io/react-portfolio/#Contact-Me"></input>
+        <input type="hidden" name="_url" value="https://mariahw4.github.io/react-portfolio"></input>
+        <input type="hidden" name="_next" value="https://mariahw4.github.io/react-portfolio/#Thank-You"></input>
         <div className="row">
             <div className="col">
                 <label for="firstName">First Name</label>
