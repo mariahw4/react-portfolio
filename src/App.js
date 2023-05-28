@@ -6,8 +6,8 @@ import About from './components/about_me'
 import Portfolio from './components/portfolio'
 import Contact from './components/contact'
 import Resume from './components/resume'
-import './App.css'
 import ThankYou from './components/thankyou'
+import './App.css'
 
 const App = () => {
 
