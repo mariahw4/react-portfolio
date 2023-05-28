@@ -72,22 +72,22 @@ function Contact() {
         <div className="row">
             <div className="col">
                 <label for="firstName">First Name</label>
-                <input type="text" className="form-control" name="name" id="firstName" placeholder="First Name"/>
+                <input type="text" className="form-control" name="name" id="firstName" required placeholder="First Name"/>
             </div>
             <div className="col">
                 <label for="lastName">Last Name</label>
-                <input  type="text" className="form-control" name='lastName' id="lastName" placeholder="Last Name"/>
+                <input  type="text" className="form-control" name='lastName' id="lastName" required placeholder="Last Name"/>
             </div>
             <div className="form-group col">
                 <label for="email">Email address</label>
-                <input  type="email" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                <input  type="email" className="form-control" name="email" id="exampleInputEmail1" required aria-describedby="emailHelp" placeholder="Enter email"/>
                 <small id="emailHelp" className="form-text text-muted">Please enter a valid email.</small>
             </div>
         </div>
         <div className="row">
             <div className="form-group col-8">
                 <label for="message">Message</label>
-                <input  type="text" className="form-control" name="message" id="message" placeholder="Message"/>
+                <input  type="text" className="form-control" name="message" id="message" required placeholder="Message"/>
             </div> 
             <button type="submit"  className="btn btn-primary col-2">Submit</button>
         </div>

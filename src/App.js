@@ -24,7 +24,7 @@ const App = () => {
       if (currentPage === 'Contact') {
         return <Contact />;
       }
-      if (currentPage === 'Thank-You'){
+      if (currentPage === 'ThankYou'){
         return <ThankYou />
       }
       return <Resume />;

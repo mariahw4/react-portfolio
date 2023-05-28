@@ -2,11 +2,13 @@ import React from 'react';
 
 function ThankYou() {
     return (
-    <>
-    <h1 id="Thank-You">Thank you for your submission!!!</h1>
-    <br/>
-    <a href="https://mariahw4.github.io/react-portfolio/#About-Me">Click to return to my portfolio</a>
-    </>
+        <div className="container py-4">
+        <h2 className="h2" id="Thank-You">Contact Me:</h2>
+        <p>Thank you! I'll be in touch soon. </p>
+        
+       
+
+    </div>
     )
 }
 
