@@ -63,7 +63,10 @@ function Contact() {
         <h2 className="h2" id="Contact-Me">Contact Me:</h2>
         <p>I'd love to connect! Please fill out the form to send a greeting!! </p>
         
-    <form action="https://formsubmit.co/wearmariahk@gmail.com" method="POST">
+    <form action="https://formsubmit.co/7d380e25922453979086acbd2c00676d" method="POST">
+        <input type="text" name="_honey" style={{display: "none"}}/>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_subject" value="New submission!"></input>
         <div className="row">
             <div className="col">
                 <label for="firstName">First Name</label>
