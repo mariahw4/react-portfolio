@@ -55,7 +55,7 @@ function Contact() {
        setEmail('');
        setMessage('');
 
-       alert(`Thanks for your message ${firstName}! Unfortunately this form is in develpment, please email me!`);
+    //    alert(`Thanks for your message ${firstName}! Unfortunately this form is in develpment, please email me!`);
     };
     
     return (
