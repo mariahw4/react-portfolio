@@ -32,11 +32,11 @@ function Navbar({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Resume`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#Thank-You" onClick={() => handlePageChange('ThankYou')}
           // Check to see if the currentPage is `Thank You`, and if so we use the active link className from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'ThankYou' ? 'nav-link active' : 'nav-link'}>Thank You</a>
-      </li>
+      </li> */}
 
 
     </ul>

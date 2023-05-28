@@ -64,8 +64,6 @@ function Contact() {
         <p>I'd love to connect! Please fill out the form to send a greeting!! </p>
         
     <form action="https://formsubmit.co/7d380e25922453979086acbd2c00676d" method="POST">
-        <input type="text" name="_honey" style={{display: "none"}}/>
-        <input type="hidden" name="_captcha" value="false"></input>
         <input type="hidden" name="_subject" value="New submission!"></input>
         <input type="hidden" name="_url" value="https://mariahw4.github.io/react-portfolio"></input>
         <input type="hidden" name="_next" value="https://mariahw4.github.io/react-portfolio/#Thank-You"></input>
