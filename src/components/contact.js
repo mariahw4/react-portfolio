@@ -63,11 +63,11 @@ function Contact() {
         <h2 className="h2" id="Contact-Me">Contact Me:</h2>
         <p>I'd love to connect! Please fill out the form to send a greeting!! </p>
         
-    <form>
+    <form action="https://formsubmit.co/wearmariahk@gmail.com" method="POST">
         <div className="row">
             <div className="col">
                 <label for="firstName">First Name</label>
-                <input value={firstName} onChange={handleInputChange} type="text" className="form-control" name="firstName" id="firstName" placeholder="First Name"/>
+                <input value={firstName} onChange={handleInputChange} type="text" className="form-control" name="name" id="firstName" placeholder="First Name"/>
             </div>
             <div className="col">
                 <label for="lastName">Last Name</label>
