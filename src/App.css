@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/* .card-img-top {
+  max-width: 90%;
+} */
 .h2{
   scroll-margin-top: 20vh;
 }
@@ -33,8 +35,9 @@ h5{
 } */
 
 .card {
-  padding: 1rem;
-  margin: 1rem;
+  /* max-width: 80%; */
+  /* padding-top: 16px; */
+  margin: auto;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
