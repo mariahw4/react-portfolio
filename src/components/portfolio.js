@@ -13,7 +13,7 @@ function Portfolio() {
             <div className='col-12 col-md-6 col-lg-4'>
           <div
             className="card my-2"
-            style={{ border: "4px solid navy" }}
+            style={{ border: "4px solid navy", height: '97%' } }
           >
             <h5 className="card-title">Tech Blog App:</h5>
             <img
@@ -48,7 +48,7 @@ function Portfolio() {
           <div className='col-12 col-md-6 col-lg-4'>
           <div
             className="card my-2"
-            style={{ border: "4px solid navy" }}
+            style={{ border: "4px solid navy", height: '97%' }}
           >
             <h5 className="card-title">Web API group project:</h5>
             <img
@@ -83,7 +83,7 @@ function Portfolio() {
           <div className="col-12 col-md-6 col-lg-4">
             <div
               className="card my-2"
-              style={{ border: "4px solid navy" }}
+              style={{ border: "4px solid navy", height: '97%' }}
             >
               <h5 className="card-title">Workday Scheduler: </h5>
               <img
@@ -118,7 +118,7 @@ function Portfolio() {
             <div className="col-12 col-md-6 col-lg-4">
               <div
                 className="card my-2"
-                style={{ border: "4px solid navy" }}
+                style={{ border: "4px solid navy", height: '97%' }}
               >
                 <h5 className="card-title">Weather Dashboard:</h5>
                 <img
@@ -154,7 +154,7 @@ function Portfolio() {
         <div className="col-12 col-md-6 col-lg-4">
           <div
             className="card my-2"
-            style={{ border: "4px solid navy" }}
+            style={{ border: "4px solid navy", height: '97%' }}
           >
             <h5 className="card-title">Password Generator: </h5>
             <img
@@ -189,7 +189,7 @@ function Portfolio() {
           <div className="col-12 col-md-6 col-lg-4">
           <div
             className="card my-2"
-            style={{ border: "4px solid navy" }}
+            style={{ border: "4px solid navy", height: '97%' }}
           >
             <h5 className="card-title">Basic Portfolio: </h5>
             <img
