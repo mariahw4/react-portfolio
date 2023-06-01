@@ -67,16 +67,16 @@ function Contact() {
         <input type="hidden" name="_subject" value="New submission!"></input>
         <input type="hidden" name="_url" value="https://mariahw4.github.io/react-portfolio"></input>
         <input type="hidden" name="_next" value="https://mariahw4.github.io/react-portfolio/#Thank-You"></input>
-        <div className="row gy-2 gx-3 align-items-center">
-            <div className="col-auto">
+        <div className="row gy-2 gx-3 ">
+            <div className="col-12 col-md-6 col-lg-4">
                 <label for="firstName">First Name</label>
                 <input type="text" className="form-control" name="name" id="firstName" required placeholder="First Name"/>
             </div>
-            <div className="col-auto">
+            <div className="col-12 col-md-6 col-lg-4">
                 <label for="lastName">Last Name</label>
                 <input  type="text" className="form-control" name='lastName' id="lastName" required placeholder="Last Name"/>
             </div>
-            <div className="form-group col-auto">
+            <div className="form-group col-12  col-lg-4">
                 <label for="email">Email address</label>
                 <input  type="email" className="form-control" name="email" id="exampleInputEmail1" required aria-describedby="emailHelp" placeholder="Enter email"/>
                 {/* <small id="emailHelp" className="form-text text-muted">Please enter a valid email.</small> */}
