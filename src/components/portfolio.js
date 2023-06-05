@@ -1,9 +1,65 @@
 import React from "react";
+import projects from "./projects";
+
 
 function Portfolio() {
-  return (
-    <>
-      <div className="container py-4 px-4">
+console.log(projects)
+    return (
+      <>
+        <div className="container py-4 px-4">
+        <h2 className="h2" id="Portfolio">
+          Portfolio:
+        </h2>
+        <h3>Example Projects:</h3>
+        <div className="row">
+      {projects.map((props) => ( 
+        <div className="col-12 col-md-6 col-lg-4">
+          <div className="card my-2" style={{ border: "4px solid navy", height: '97%' } }>
+              <h5 className="card-title">{props.title}</h5>
+            <img
+              className="card-img-top"
+              src={props.image}
+              alt="screenshot of webpage"
+            />
+            <div className="card-body">
+              <p className="card-text">{props.description}</p>
+              <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={props.link}
+                  className="btn btn-primary"
+                >
+                  Deployed Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={props.github}
+                  className="btn btn-primary"
+                >
+                  Github Repo
+                </a>
+            </div>
+          </div>
+        </div>
+      ))}
+      </div>
+      </div>
+      </>
+    );
+  }
+  
+  export default Portfolio;
+
+// function Portfolio() {
+//   return (
+//     <>
+
+//     <div>
+//         <Projects title={project.title} github={project.github} image={project.image} description={project.description} link={project.link} />
+//     </div>
+    //   {
+        /* <div className="container py-4 px-4">
         <h2 className="h2" id="Portfolio">
           Portfolio:
         </h2>
@@ -222,9 +278,11 @@ function Portfolio() {
           </div>
           </div>
         </div>
-        </div>
-    </>
-  );
-}
+        </div> */
+    // }
 
-export default Portfolio;
+//     </>
+//   );
+// }
+
+// export default Portfolio;

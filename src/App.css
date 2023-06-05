@@ -29,6 +29,8 @@ h5{
   border: 2px solid navy;
   margin-top: 10rem;
   margin-bottom: 5rem;
+  background-color: rgb(182, 234, 207);
+  border-radius: 1rem;
 }
 /* .nav-link {
   width: fit-content;

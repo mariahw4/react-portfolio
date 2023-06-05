@@ -3,9 +3,9 @@ import React from 'react';
 function Resume() {
     return (
     <div className="container">
-        <h2 className="h2" id="Resume">Resume & Proficiencies:</h2>
+        <h2 className="h2" id="Resume" >Resume & Proficiencies:</h2>
 
-        <a href='./full-stack-resume.pdf' download>Click to download my Resume</a>
+        <a href='./full-stack-resume.pdf' className="btn btn-primary" download>Click to view/download my Resume</a>
 
         <h3>Proficiencies:</h3>
         <ul>
