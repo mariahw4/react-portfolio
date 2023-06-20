@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
 .App {
   text-align: center;
 }
@@ -13,8 +15,13 @@
   scroll-margin-top: 20vh;
 }
 
+.navName {
+  font-family: 'Lemonada', cursive;
+  font-size: 3rem !important;
+}
+
 h5{
-  background-color: navy;
+  background-color: black;
   color: white;
 }
 .navbar-img{
@@ -26,10 +33,10 @@ h5{
   margin: 0px 35%;
 }
 .container {
-  border: 2px solid navy;
+  border: 2px solid white;
   margin-top: 10rem;
   margin-bottom: 5rem;
-  background-color: rgb(182, 234, 207);
+  background-color: rgb(227, 118, 189);
   border-radius: 1rem;
 }
 /* .nav-link {

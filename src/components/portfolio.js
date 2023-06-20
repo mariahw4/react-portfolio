@@ -14,7 +14,7 @@ console.log(projects)
         <div className="row">
       {projects.map((props) => ( 
         <div className="col-12 col-md-6 col-lg-4">
-          <div className="card my-2" style={{ border: "4px solid navy", height: '97%' } }>
+          <div className="card my-2" style={{ border: "4px solid black", height: '97%' } }>
               <h5 className="card-title">{props.title}</h5>
             <img
               className="card-img-top"
@@ -27,7 +27,7 @@ console.log(projects)
                   target="_blank"
                   rel="noopener noreferrer"
                   href={props.link}
-                  className="btn btn-primary"
+                  className="btn btn-dark"
                 >
                   Deployed Project
                 </a>
@@ -35,7 +35,7 @@ console.log(projects)
                   target="_blank"
                   rel="noopener noreferrer"
                   href={props.github}
-                  className="btn btn-primary"
+                  className="btn btn-dark"
                 >
                   Github Repo
                 </a>
@@ -86,7 +86,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://tech-blog-application.herokuapp.com/"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Deployed Project
               </a>
@@ -94,7 +94,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/mariahw4/14-Tech-Blog"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Github Repo
               </a>
@@ -121,7 +121,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://mariahw4.github.io/MovieDetails/"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Deployed Project
               </a>
@@ -129,7 +129,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/mariahw4/MovieDetails"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Github Repo
               </a>
@@ -156,7 +156,7 @@ console.log(projects)
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://mariahw4.github.io/05-workday-scheduler/"
-                  className="btn btn-primary"
+                  className="btn btn-dark"
                 >
                   Deployed Project
                 </a>
@@ -164,7 +164,7 @@ console.log(projects)
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/mariahw4/05-workday-scheduler"
-                  className="btn btn-primary"
+                  className="btn btn-dark"
                 >
                   Github Repo
                 </a>
@@ -192,7 +192,7 @@ console.log(projects)
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://mariahw4.github.io/06-weather-dashboard/"
-                    className="btn btn-primary"
+                    className="btn btn-dark"
                   >
                     Deployed Project
                   </a>
@@ -200,7 +200,7 @@ console.log(projects)
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/mariahw4/06-weather-dashboard"
-                    className="btn btn-primary"
+                    className="btn btn-dark"
                   >
                     Github Repo
                   </a>
@@ -227,7 +227,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://mariahw4.github.io/03-javascript-password-generator/"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Deployed Project
               </a>
@@ -235,7 +235,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/mariahw4/03-javascript-password-generator"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Github Repo
               </a>
@@ -262,7 +262,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://mariahw4.github.io/02-professional-portfolio/"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Deployed Project
               </a>
@@ -270,7 +270,7 @@ console.log(projects)
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/mariahw4/02-professional-portfolio"
-                className="btn btn-primary"
+                className="btn btn-dark"
               >
                 Github Repo
               </a>

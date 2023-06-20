@@ -6,17 +6,16 @@ function Navbar({ currentPage, handlePageChange }) {
     <>
       <div className="container sticky-top">
         <div className="px-3 ">
-          <nav className="navbar navbar-light navbar-expand-lg " style={{background: 'rgb(182, 234, 207)'}}>
-            <img
+          <nav className="navbar navbar-light navbar-expand-lg " style={{background: 'rgb(227, 118, 189)'}}>
+            {/* <img
               src="/react-portfolio/images/self-portrait.png"
               className="d-inline-block align-top navbar-img "
               alt="self-portrait"
-            />
-            <a className="navbar-brand" href="#About-Me">
+            /> */}
+            <a className="navbar-brand navName" href="#About-Me">
               Mariah Wear
             </a>
-
-            <div className="navbar-justify">
+            <div className="d-flex navbar justify-content-end">
               <ul className="navbar-nav">
                 <li>
                   <a

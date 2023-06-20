@@ -87,7 +87,7 @@ function Contact() {
                 <label for="message">Message</label>
                 <input  type="text" className="form-control" name="message" id="message" required placeholder="Message"/>
             </div> 
-            <button type="submit"  className="btn btn-primary col-12">Submit</button>
+            <button type="submit"  className="btn btn-dark col-12">Submit</button>
         {/* </div> */}
   
     </form>

@@ -7,6 +7,13 @@ const projects = [
         github: 'https://github.com/mariahw4/14-Tech-Blog',
     },
     {
+        title: 'Yard Sale 2.0',
+        description: 'Full Stack project that enables users to post products and add them to a cart. User authenticaion with JWT and payment playform stripe integration',
+        image: '/react-portfolio/images/yardsale2.png',
+        link: 'https://yardsale-2-application.herokuapp.com/',
+        github: 'https://github.com/mariahw4/yardsale-2.0',
+    },
+    {
         title: 'Web API group project:',
         description: 'App to search for movies and see details about the movie and actors.',
         image: '/react-portfolio/images/webAPI.png',
@@ -34,13 +41,13 @@ const projects = [
         link: 'https://mariahw4.github.io/03-javascript-password-generator/', 
         github: 'https://github.com/mariahw4/03-javascript-password-generator',
     },
-    {
-        title: 'Basic Portfolio:', 
-        description: 'This is my first generation portfolio with links to more projects I have completed.',
-        image:'/react-portfolio/images/early-portfolio.png',
-        link: 'https://mariahw4.github.io/02-professional-portfolio/', 
-        github: 'https://github.com/mariahw4/02-professional-portfolio',
-    }
+    // {
+    //     title: 'Basic Portfolio:', 
+    //     description: 'This is my first generation portfolio with links to more projects I have completed.',
+    //     image:'/react-portfolio/images/early-portfolio.png',
+    //     link: 'https://mariahw4.github.io/02-professional-portfolio/', 
+    //     github: 'https://github.com/mariahw4/02-professional-portfolio',
+    // }
 ]
 
     export default projects;
