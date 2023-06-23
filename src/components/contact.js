@@ -63,7 +63,7 @@ function Contact() {
         <h2 className="h2" id="Contact-Me">Contact Me:</h2>
         <p>I'd love to connect! Please fill out the form to send a greeting!! </p>
         
-    <form action="https://formsubmit.co/mariahweardev@gmail.com" method="POST">
+    <form action="https://formsubmit.co/7d15528960746a592416c31c8be147f6" method="POST">
         <input type="hidden" name="_subject" value="New submission!"></input>
         <input type="hidden" name="_url" value="https://mariahw4.github.io/react-portfolio"></input>
         <input type="hidden" name="_next" value="https://mariahw4.github.io/react-portfolio/#Thank-You"></input>
