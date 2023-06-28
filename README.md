@@ -60,7 +60,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ### Screenshot
 Screenshot of completed project
-![](./public/images/completed-project.png)
+![](./public/images/screenshot-project.png)
 
 
 
