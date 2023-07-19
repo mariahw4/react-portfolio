@@ -14,7 +14,7 @@ console.log(projects)
         <div className="row">
       {projects.map((props) => ( 
         <div className="col-12 col-md-6 col-lg-4">
-          <div className="card my-2" style={{ border: "4px solid black", height: '97%' } }>
+          <div className="card my-2" style={{ border: "4px solid black", height: '97%' } } >
               <h5 className="card-title">{props.title}</h5>
             <img
               className="card-img-top"
