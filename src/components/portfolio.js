@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "./projects";
+import { Project } from "./Project";
 
 
 function Portfolio() {
@@ -12,36 +13,8 @@ console.log(projects)
         </h2>
         <h3>Example Projects:</h3>
         <div className="row">
-      {projects.map((props) => ( 
-        <div className="col-12 col-md-6 col-lg-4">
-          <div className="card my-2" style={{ border: "4px solid black", height: '97%' } } >
-              <h5 className="card-title">{props.title}</h5>
-            <img
-              className="card-img-top"
-              src={props.image}
-              alt="screenshot of webpage"
-            />
-            <div className="card-body">
-              <p className="card-text">{props.description}</p>
-              <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={props.link}
-                  className="btn btn-dark"
-                >
-                  Deployed Project
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={props.github}
-                  className="btn btn-dark"
-                >
-                  Github Repo
-                </a>
-            </div>
-          </div>
-        </div>
+      {projects.map((project) => ( 
+        <Project key={project.title} description={project.description} title={project.title} image={project.image} github={project.github} link={project.link}/>
       ))}
       </div>
       </div>
